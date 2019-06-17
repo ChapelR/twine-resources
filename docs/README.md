@@ -8,11 +8,21 @@ This is a collection of resources and tools for use with [Twine](https://twinery
 > [!TIP]
 > If you have or know of resources that you'd like to see in this guide, open an issue or a pull request. Note that this list is *curated*, so if I have reservations about a resource or if it does not appear to work, I reserve the right to deny it.
 
+## Contents
+
+- [Compilers](#compilers)
+- [Story Formats](#story-formats)
+- [Tooling](#tooling)
+- [Extensions and Libraries](#extensions-and-libraries)
+- [Guides, Examples, and References](#guides-examples-and-references)
+- [Communities](#communities)
+- [Publishing Resources](#publishing-resources)
+
 ## Compilers
 
-A Twine *compiler* refers to a program that takes your raw code and metadata: passage names, tags, source code, etc, and compiles it with a [story format](#story-formats) to generate a Twine game. There are two main types of compilers: [GUI](https://en.wikipedia.org/wiki/Graphical_user_interface) comilers and [CLI](https://en.wikipedia.org/wiki/Command-line_interface) compilers. Most beginners may prefer to use GUI compilers, as they more readily reflect the way most users interact with their computers, but CLI comilers typically offer more options and flexibility.
+A Twine *compiler* refers to a program that takes your raw code and metadata: passage names, tags, source code, etc, and compiles it with a [story format](#story-formats) to generate a Twine game. There are two main types of compilers: [GUI](https://en.wikipedia.org/wiki/Graphical_user_interface) comilers and [CLI](https://en.wikipedia.org/wiki/Command-line_interface) compilers. Most beginners may prefer to use GUI compilers, as they more readily reflect the way most users interact with their computers, but CLI comilers typically offer more options and flexibility. While some CLI compilers can process JavaScript, CSS, HTML, and even published or archived Twine 2 files, you will commonly use [Twee notation](https://twinery.org/cookbook/terms/terms_twee.html) with these compilers.
 
-There are also two *generations* of Twine compilers and story formats. First generation Twine compilers typically only work with first generation story formats, and second generation compilers typically only work with second generation formats. However, there is at least one compiler and a handful of story formats that work with across these generations.
+There are also two *generations* of Twine compilers and story formats. First generation Twine compilers typically only work with first generation story formats, and second generation compilers typically only work with second generation formats. However, there is at least one compiler and a handful of story formats that work across both generations.
 
 > [!NOTE]
 > The term "generation" is, to my knowledge, an invention of this guide, not an official or widely accepted term.
@@ -31,14 +41,14 @@ There are also two *generations* of Twine compilers and story formats. First gen
 - [Releases](https://github.com/klembot/twinejs/releases)
 - [Repository](https://github.com/klembot/twinejs)
 
-The currently maintained Twine GUI application. The recommended GUI compiler for most users.
+The currently maintained Twine GUI application. The recommended GUI compiler for most users. For second generation formats only.
 
 ### Twine 1
 
 - [Website](https://twinery.org/)
 - [Repository](https://github.com/tweecode)
 
-The old, unmaintained Twine GUI. Only recommended for use with generation 2 formats that also support this compiler (e.g., SugarCube). The old formats that come with Twine 1 should no longer be used, especially for new projects.
+The old, unmaintained Twine GUI. Only recommended for use with generation 2 formats that also support this compiler (e.g., SugarCube). The old formats that come with Twine 1 should no longer be used, especially for new projects. For first generation formats only.
 
 ### Tweego
 
@@ -46,7 +56,14 @@ The old, unmaintained Twine GUI. Only recommended for use with generation 2 form
 - [Documentation](https://www.motoslave.net/tweego/docs)
 - [Repository](https://bitbucket.org/tmedwards/tweego)
 
-A CLI compiler for [Twee](https://twinery.org/cookbook/terms/terms_twee.html); works with formats from either generation. The recommended CLI compiler for most users. 
+A CLI compiler. Works with formats from either generation. The recommended CLI compiler for most users. 
+
+### Entwine
+
+- [Entwine and Twine Utilities](https://github.com/klembot/twine-utils)
+- [Grunt Entwine Quickstart](https://github.com/klembot/grunt-entwine-quickstart)
+
+A node.js-powered CLI compiler made by the creator of Twine 2. For second generation formats only.
 
 ### Twee2
 
@@ -54,20 +71,20 @@ A CLI compiler for [Twee](https://twinery.org/cookbook/terms/terms_twee.html); w
 - [Documentation](https://dan-q.github.io/twee2/documentation.html)
 - [Repository](https://github.com/Dan-Q/twee2)
 
-Another CLI compiler. Works with Twine 2-style formats. Has slightly better interoperability with Twine 2 thanks to allowing for positional notation in the passage metadata, but its particular brand of Twee notation is not supported by any other compilers or tools.
+Another CLI compiler. Works with Twine 2-style formats. Has slightly better interoperability with Twine 2 thanks to allowing for positional notation in the passage metadata, but its particular brand of Twee notation is not supported by any other compilers or tools. For second generation formats only.
 
 ### Extwee
 
 - [Repository](https://github.com/videlais/extwee)
 
-Another CLI compiler designed to work with second generation formats. Adheres to the [Twee3 specification](https://github.com/iftechfoundation/twine-specs/blob/master/twee-3-specification.md).
+Another CLI compiler designed to work with second generation formats. Adheres to the [Twee3 specification](https://github.com/iftechfoundation/twine-specs/blob/master/twee-3-specification.md). For second generation formats only.
 
 ### Twee
 
 - [Documentation](http://twee-twine-doc.tiddlyspot.com/)
 - [Repository](https://github.com/tweecode/twee) 
 
-The original CLI compiler for Twee. No longer maintained and not recommended for use by anyone anymore. 
+The original CLI compiler for Twee. No longer maintained and not recommended for use by anyone anymore. For first generation formats only.
 
 ## Story Formats
 
@@ -393,3 +410,52 @@ A NSFW game development forum with a prominent Twine user base.
 - [Subreddit](https://www.reddit.com/r/interactivefiction/)
 
 A subreddit for general IF discussion, where Twine may also be discussed.
+
+## Publishing Resources
+
+There are several places across the web where you can host your Twine game for free. You can also always share the HTML file itself (or an archive containing the file and its assets) if you don't want to host it.
+
+> [!WARNING]
+> You will not be able to host your Twine game though certain providers like Wix or Wordpress, or through most blogging platforms. Most of these services do not allow users to upload arbitrary HTML files (e.g., your Twine game) and many also have specific limitations on how you can use iframes, so even hosting it elsewhere and making it merely *playable* through your website may not be possible with such services. Some services, like [GoDaddy](https://www.godaddy.com/) have also been known to break the Twine files they are meant to serve, so some research may be needed even if your preferred service does allow you to upload arbitrary HTML files.
+
+### Philome.la
+
+- [Website](http://philome.la/)
+
+This website makes publishing your game simple, and it is dedicated purely to Twine. You may only host your HTML file here; if you need additional resources, like assets, you will need to host them separately and link to them in your file, or publish some place else.
+
+### Itch.io
+
+- [Website](https://itch.io/)
+
+Itch.io is an open marketplace for independent digital creators with a focus on independent video games. It allows you to upload assets with your HTML file, and allows you to make downloadable games.
+
+### GitHub Pages
+
+- [Website](https://pages.github.com/)
+
+GitHub pages is great for testing your game, but there are bandwidth limitations, so publishing a game here may have some issues. You can upload assets with you game, and the whole game is structured as a repository on GitHub as well.
+
+### BitBukcet Pages
+
+- [Website](https://pages.bitbucket.io/)
+
+Very similar to GitHub pages, but uses BitBucket as a backend.
+
+### Neocities
+
+- [Website](https://neocities.org/)
+
+A free place to host your Twine game, along with any assets it needs. It's limitations are similar to GitHub and BitBucket pages, but you can pay for unlimited bandwidth and other perks.
+
+### DriveToWeb
+
+- [Website](https://drv.tw/)
+
+Allows you to use Google Drive as your website's backend. You can upload assets in addition to your HTML file, as you'd expect. Has potentially stricter limitations than the preceding options.
+
+### Newgrounds 
+
+- [Website](https://www.newgrounds.com/)
+
+Newgrounds accepts HTML games, like Twine. You can upload assets with yout HTML file in much the same way as on Itch.io.
