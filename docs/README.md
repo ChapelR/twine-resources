@@ -1,6 +1,6 @@
 # Twine Resources
 
-This is a collection of resources and tools for use with [Twine](https://twinery.org/), an "open-source tool for telling interactive, nonlinear stories." The name "Twine" can refer to several different things: one of two applications, the type of story or game you make (e.g., a "Twine game"), and it often refers to the entire ecosystem of compilers, story formats, and tools designed together to make said stories.
+This is a collection of resources and tools for use with [Twine](https://twinery.org/), an "open-source tool for telling interactive, nonlinear stories." The name "Twine" can refer to several different things: one of two applications, the type of story or game you make (e.g., a "Twine game"), and it often refers to the entire ecosystem of compilers, story formats, and tools designed to make said stories.
 
 > [!NOTE]
 > In this guide, when we refer to **Twine**, we will generally be talking about the entire ecosystem. If we mean the genre of IF that Twine produces, we will use the term ["CYOA"](https://en.wikipedia.org/wiki/Gamebook), and if we are talking about one of the Twine applications, we will say "Twine 1" or "Twine 2."
@@ -96,11 +96,11 @@ Harlowe is a format designed for novices and is ideal for CYOA games with some d
 
 - [Repository](https://github.com/videlais/snowman)
 
-Snowman is essentially just a link markup parser, a markdown parser, and a templating engine, with a few nuts-and-bolts APIs built in to handle passages and such. It is agressively minimal, requiring authors to build almost every bit of funcitonality they may need in JavaScript. **Snowman requires a great deal of knowledge of JavaScript (and general web development) to get anywhere with**. Even then, its thin feature set may still make it a poorer choice than the other core formats for many projects.
+Snowman is essentially just a link markup parser, a markdown parser, and a templating engine, with a few nuts-and-bolts APIs built in to handle passages and such. It is agressively minimal, requiring authors to build almost every bit of funcitonality they may need in JavaScript. **Snowman requires a great deal of knowledge of JavaScript (and general web development) to get anywhere with**. Even then, its thin feature set may still make it a poorer choice than the other core formats for many projects, even for developers with the know-how to make it work for them.
 
 ### Proofing and Utility Formats
 
-Twine 2 introduced the concept of "proofing" formats; story formats designed to create more readable copies of your source code for proofreading and editing. Utility formats is a related concept that sprung up from the community in the wake of proofing formats--typically these formats output Twine stories to some other useful format--JSON or Twee, for example, but there are many that do many cool things.
+Twine 2 introduced the concept of "proofing" formats; story formats designed to create more readable copies of your source code for proofreading and editing. "Utility" formats are a related concept that sprung up in the wake of proofing formats--typically these formats output Twine stories to some other useful format--JSON or Twee, for example, but there are many that do other cool things.
 
 The default proofing format is [*Paperthin*](https://github.com/klembot/paperthin); it just shows your Twine file as a simple list of passage names and passage source code. Some community developed proofing formats, like [*Illume*](http://www.maximumverbosity.net/twine/Illume/) arrived later. <!-- probably shouldn't mention poof, as it will look like I'm plugging, even though I think it's a good alternative to Illume, if I do say so myself --> Examples of utility formats include [*Entwee*](http://mcdemarco.net/tools/entwee/) and [*Enscree*](http://mcdemarco.net/tools/scree/enscree/).
 
@@ -110,43 +110,43 @@ Many, many story formats exist. A catalogue of formats can be found [here](http:
 
 #### Some Formats of Note
 
-The following is a list of some third-party story formats that have been confirmed to work and are actively maintained.
+The following is a list of some third-party, non-core story formats that have been confirmed to work and are actively maintained.
 
-##### Entwee
-
-- [Website](http://www.mcdemarco.net/tools/entwee/)
-
-Entwee is my one-time-use story format for exporting a Twine 2 story into the old twee format, based on Michael McCollum’s similar story format, Entweedle. By M. C. DeMarco.
-
-##### Enscree
-
-- [Website](http://www.mcdemarco.net/tools/enscree/)
-
-Enscree is my one-time-use story format for exporting a Twine 2 story into a MultiMarkdown format used for importing into Scrivener/Scree. By M. C. DeMarco.
-
-##### Paloma
+##### Paloma (story format)
 
 - [Website](http://www.mcdemarco.net/tools/scree/paloma/)
 
 A Snowman-based story format that features stretch-text--that is, new passages are rendered below the old ones, rather than replacing them. By M. C. DeMarco.
 
-##### Adventures
+##### Adventures (story format)
 
 - [Website](http://adventures.longwelwind.net/)
 
 Adventures is a custom story format for Twine 2 made by Longwelwind that allows writers to add RPG elements such as health, items, golds and more to their story. 
 
-##### Illume
+##### Entwee (utility format)
 
-- [Website](http://www.maximumverbosity.net/twine/Illume/)
+- [Website](http://www.mcdemarco.net/tools/entwee/)
 
-Illume is an experiment in producing a proofing format for Twine 2 that offers more functionality than a simple text dump. It includes several features, such as generating basic story statistics and the option to export your story in twee source format, but its primary purpose is to provide an interface for reviewing and editing passages in a workflow that allows an author to easily have another person, even someone who does not use Twine, proofread and provide edits to a story.
+Entwee is a one-time-use story format for exporting a Twine 2 story into the old twee format, based on Michael McCollum’s similar story format, Entweedle. By M. C. DeMarco.
 
-##### DotGraph
+##### Enscree (utility format)
+
+- [Website](http://www.mcdemarco.net/tools/enscree/)
+
+Enscree is a one-time-use story format for exporting a Twine 2 story into a MultiMarkdown format used for importing into Scrivener/Scree. By M. C. DeMarco.
+
+##### DotGraph (utility format)
 
 - [Website](http://www.mcdemarco.net/tools/scree/dotgraph/)
 
 DotGraph is a proofing format that uses a JavaScript implementation of Graphviz to automatically lay out a Twine story as a layered graph. By M. C. DeMarco.
+
+##### Illume (proofing format)
+
+- [Website](http://www.maximumverbosity.net/twine/Illume/)
+
+Illume is a proofing format for Twine 2 that offers more functionality than a simple text dump. Its primary purpose is to provide an interface for reviewing and editing passages in a workflow that allows an author to easily have another person, even someone who does not use Twine, proofread and provide edits to a story.
 
 <!--##### poof
 
@@ -156,7 +156,7 @@ Description (Full disclosure: the primary author and maintainer of this resource
 
 ## Tooling
 
-"Tooling" is essentially any program or software that helps you make Twine stories that isn't a requirement (like a format or a compiler) and doesn't go on to become part of your game (like a library or script). A few of these tools are not designed *specifically* or *only* for Twine.
+"Tooling" is essentially any program or software that helps you make Twine stories that isn't a requirement (like a format or a compiler) and doesn't go on to become part of your game (like a library or script). A few of these tools are not designed *specifically* or *only* for Twine, but work with it all the same.
 
 ### HTMLE
 
@@ -170,19 +170,19 @@ A suite of tools and software for releasing Twine games (and potentially other H
 - [Releases](https://github.com/jyapayne/Web2Executable/releases)
 - [Repository](https://github.com/jyapayne/Web2Executable)
 
-A tool for turning web applications (including Twine games) into standalone hybrid applications using [NW.js]().
+A tool for turning web applications (including Twine games) into standalone hybrid applications using [NW.js](https://nwjs.io/).
 
 ### Electrify
 
 - [Releases](https://github.com/jyapayne/Electrify/releases)
 - [Repository](https://github.com/jyapayne/Electrify)
 
-A tool for turning web applications (including Twine games) into standalone hybrid applications using [Electron]().
+A tool for turning web applications (including Twine games) into standalone hybrid applications using [Electron](https://electronjs.org/).
 
 <!--### Tweego Installer (Windows)
 
-- [Releases]()
-- [Repository]()
+- [Releases](https://github.com/ChapelR/tweego-installer/releases)
+- [Repository](https://github.com/ChapelR/tweego-installer)
 
 A Windows-only installer that simplifies installing Tweego. (Full disclosure: the primary author and maintainer of this resource guide developed this resource.)-->
 
@@ -194,11 +194,11 @@ A shell script for installing Tweego on MacOS.
 
 <!--### Tweego Setup
 
-- [Repository]()
+- [Repository](https://github.com/ChapelR/tweego-setup)
 
 A boilerplate project and toolchain for creating Tweego porjects with [Node]() and [Gulp](). (Full disclosure: the primary author and maintainer of this resource guide developed this resource.)-->
 
-### Adventure Gaem Engine - Tweego
+### Adventure Game Engine - Tweego
 
 - [Repository](https://github.com/forkedlogic/AdventureGameEngine-TweeGo)
 
@@ -206,9 +206,9 @@ An adventure game engine based on Sugarcube 2 & TweeGo. An opinionated boilerpla
 
 ## Extensions and Libraries
 
-Since a great deal of web libraries can be made to work with Twine story formats (though it may take some doing), and since Snowman essentially requires *all* functionality to be built by author and I'm unaware of any specific libraries designed for it, this list will only include libraries, scripts, and extensions designed specifically to work with either Harlowe or SugarCube, at least for now.
+Since a great deal of web libraries can be made to work with Twine story formats (though it may take some doing), and since Snowman essentially requires *all* functionality to be built by the author (and I'm unaware of any specific libraries designed for it), this list will only include libraries, scripts, and extensions designed to work with either Harlowe or SugarCube, at least for now.
 
-SugarCube is more extensible than Harlowe, so typically has more scripts and extentions.
+SugarCube is more extensible than Harlowe, so will have more scripts and extentions.
 
 ### SugarCube
 
@@ -265,8 +265,8 @@ A forum post by Greyelf providing code to create and implement a second sidebar 
 
 <!--#### Harlowe Audio Library
 
-- [Website]()
-- [Repository]()
+- [Website](https://hal.twinelab.net/)
+- [Repository](https://github.com/ChapelR/harlowe-audio)
 
 An audio library for Harlowe, designed to give it feature parity (or close to it) with SugarCube's built-in audio subsystems. (Full disclosure: the primary author and maintainer of this resource guide developed this resource.)-->
 
@@ -289,7 +289,7 @@ Guides for Twine can sometimes be hard to find when you need them, particularly 
 
 ### General
 
-Guides for the Twine application itself, for general Twine development information, or cover a lot of different story formats.
+Guides for the Twine application itself, for general Twine development information, or that just cover a lot of different story formats.
 
 #### The Twine Cookbook
 
