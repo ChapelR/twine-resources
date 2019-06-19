@@ -88,7 +88,7 @@ The original CLI compiler for Twee. No longer maintained and not recommended for
 
 ## Story Formats
 
-A [**story format**](https://twinery.org/cookbook/introduction/story_formats.html) is the run-time engine for your Twine game. This choice is very important to how you'll approach development, what sort of features your game will have, and the way you'll write your code. A Twine or Twee compiler combines your source code, passages, and metadata with a story format to generate a complete, playable game.
+A [**story format**](https://twinery.org/cookbook/introduction/story_formats.html) is the run-time engine for your Twine game. This choice is very important to how you'll approach development, what sort of features your game will have, and the way you'll write your code. A Twine compiler combines your source code, passages, and metadata with a story format to generate a complete, playable game.
 
 ### Core Formats
 
@@ -107,7 +107,7 @@ SugarCube is a feature-rich, extensible, and simple story format. While in a few
 - [Documentation](https://twine2.neocities.org/)
 - [Repository](https://bitbucket.org/_L_/harlowe/)
 
-Harlowe is a format designed for novices and is ideal for CYOA games with some dynamic content. If you want to build something more complex, like turn-based combat or inventory systems, Harlowe is generally not recommended. While simpler that SugarCube, Harlowe provides almost no options for extensibility; the core feature-set is largely all you have to work with. **Harlowe is ideal for authors who aren't looking to learn a lot about programming and just want to make a game**.
+Harlowe is a format designed for novices and is ideal for CYOA games with some dynamic content. If you want to build something more complex, like turn-based combat or inventory systems, Harlowe is generally not recommended. While simpler than SugarCube, Harlowe provides almost no options for extensibility; the core feature-set is largely all you have to work with. **Harlowe is ideal for authors who aren't looking to learn a lot about programming and just want to make a game**.
 
 #### Snowman
 
@@ -209,6 +209,18 @@ A Windows-only installer that simplifies installing Tweego. (Full disclosure: th
 
 A shell script for installing Tweego on MacOS.
 
+### Tweego Development
+
+- [Repository](https://github.com/saltire/tweego-dev)
+
+A Tweego development boilerplate.
+
+### Tweego Webpack
+
+- [Repository](https://github.com/DustinWoods/tweego-webpack)
+
+A Tweego development boilerplate featuring [webpack](https://webpack.js.org/).
+
 <!--### Tweego Setup
 
 - [Repository](https://github.com/ChapelR/tweego-setup)
@@ -252,6 +264,12 @@ A collection of macros, functions, and other code bits for SugarCube by Akjosch.
 - [Repository](https://github.com/mikewesthad/twine-resources)
 
 A collection of macros, functions, and other code bits for SugarCube by Mike Westhad.
+
+#### Hogart's SugarCube Utils
+
+- [Repository](https://github.com/hogart/sugar-cube-utils)
+
+A collection of macros, functions, and other code bits for SugarCube by Hogart (Konstantin Kitmanov).
 
 <!--#### Chapel's Custom Macro Collection
 
@@ -318,7 +336,7 @@ A "cookbook" featuring code examples and explanations of common use-cases in sev
 
 - [Website](https://twinery.org/forum/)
 
-Years upon years of wisdom and answers can be found by searching the old forum archive. Typically, the archive will appear in Google searched, so it's more common to find it there then to comb through the archive itself.
+Years upon years of wisdom and answers can be found by searching the old forum archive. Typically, the archive will appear in Google searches, so it's more common to find it there then to comb through the archive itself.
 
 #### The Official Twine Wiki
 
@@ -357,11 +375,11 @@ Harlowe's official documentation. Like SugarCube's docs, this is primarily a ref
 
 ### Snowman
 
-#### The Twine Wiki Section on Snowman
+#### Official Documentation
 
-- [Wiki Section](https://twinery.org/wiki/snowman:markup)
+- [Website](https://videlais.github.io/snowman/)
 
-Snowman doens't have detailed documentation available anywhere (thought the source code is well-commented and not terribly long), but it does have a very detailed section in the Twine wiki that covers most of its APIs and features.
+Snowman's official documentation, complete with several usage examples.
 
 ## Communities
 
@@ -434,9 +452,9 @@ Itch.io is an open marketplace for independent digital creators with a focus on 
 
 - [Website](https://pages.github.com/)
 
-GitHub pages is great for testing your game, but there are bandwidth limitations, so publishing a game here may have some issues. You can upload assets with you game, and the whole game is structured as a repository on GitHub as well.
+GitHub pages is great for testing your game, but there are bandwidth limitations, so publishing a game here may have some issues. You can upload assets with your game, and the whole game is structured as a repository on GitHub as well.
 
-### BitBukcet Pages
+### BitBucket Pages
 
 - [Website](https://pages.bitbucket.io/)
 
