@@ -119,7 +119,7 @@ Snowman is essentially just a link markup parser, a markdown parser, and a templ
 
 Twine 2 introduced the concept of "proofing" formats; story formats designed to create more readable copies of your source code for proofreading and editing. "Utility" formats are a related concept that sprung up in the wake of proofing formats--typically these formats output Twine stories to some other useful format--JSON or Twee, for example, but there are many that do other cool things.
 
-The default proofing format is [*Paperthin*](https://github.com/klembot/paperthin); it just shows your Twine file as a simple list of passage names and passage source code. Some community developed proofing formats, like [*Illume*](http://www.maximumverbosity.net/twine/Illume/) arrived later. <!-- probably shouldn't mention poof, as it will look like I'm plugging, even though I think it's a good alternative to Illume, if I do say so myself --> Examples of utility formats include [*Entwee*](http://mcdemarco.net/tools/entwee/) and [*Enscree*](http://mcdemarco.net/tools/scree/enscree/).
+The default proofing format is [*Paperthin*](https://github.com/klembot/paperthin); it just shows your Twine file as a simple list of passage names and passage source code. Some community developed proofing formats, like [*Illume*](http://www.maximumverbosity.net/twine/Illume/) arrived later. Examples of utility formats include [*Entwee*](http://mcdemarco.net/tools/entwee/) and [*Enscree*](http://mcdemarco.net/tools/scree/enscree/).
 
 ### Other Formats
 
@@ -165,11 +165,13 @@ DotGraph is a proofing format that uses a JavaScript implementation of Graphviz 
 
 Illume is a proofing format for Twine 2 that offers more functionality than a simple text dump. Its primary purpose is to provide an interface for reviewing and editing passages in a workflow that allows an author to easily have another person, even someone who does not use Twine, proofread and provide edits to a story.
 
-<!--##### poof
+##### poof (proofing format)
 
 - [Website](https://poof.twinelab.net)
 
-Description (Full disclosure: the primary author and maintainer of this resource guide developed this resource.)-->
+Poof is a comment-based proofing format with a variety of utility features, like exports to Twee, PDF, and archive files.
+
+!> **DISCLOSURE:** This resource was created by the primary author, maintainer, and curator of this guide.
 
 ## Tooling
 
@@ -196,18 +198,28 @@ A tool for turning web applications (including Twine games) into standalone hybr
 
 A tool for turning web applications (including Twine games) into standalone hybrid applications using [Electron](https://electronjs.org/).
 
-<!--### Tweego Installer (Windows)
+### Tweego Installer (Windows)
 
 - [Releases](https://github.com/ChapelR/tweego-installer/releases)
 - [Repository](https://github.com/ChapelR/tweego-installer)
 
-A Windows-only installer that simplifies installing Tweego. (Full disclosure: the primary author and maintainer of this resource guide developed this resource.)-->
+A Windows-only installer that simplifies installing Tweego.
+
+!> **DISCLOSURE:** This resource was created by the primary author, maintainer, and curator of this guide.
 
 ### Tweego Installation Script (OS X)
 
 - [Gist](https://gist.github.com/jsoma/5ef3045b2004a610455f371479a6f0cf)
 
 A shell script for installing Tweego on MacOS.
+
+### Tweego Setup
+
+- [Repository](https://github.com/ChapelR/tweego-setup)
+
+A boilerplate project and toolchain for creating Tweego porjects with [Node](https://nodejs.org/en/) and [Gulp](https://gulpjs.com/).
+
+!> **DISCLOSURE:** This resource was created by the primary author, maintainer, and curator of this guide.
 
 ### Tweego Development
 
@@ -220,12 +232,6 @@ A Tweego development boilerplate.
 - [Repository](https://github.com/DustinWoods/tweego-webpack)
 
 A Tweego development boilerplate featuring [webpack](https://webpack.js.org/).
-
-<!--### Tweego Setup
-
-- [Repository](https://github.com/ChapelR/tweego-setup)
-
-A boilerplate project and toolchain for creating Tweego porjects with [Node]() and [Gulp](). (Full disclosure: the primary author and maintainer of this resource guide developed this resource.)-->
 
 ### Adventure Game Engine - Tweego
 
@@ -271,12 +277,14 @@ A collection of macros, functions, and other code bits for SugarCube by Mike Wes
 
 A collection of macros, functions, and other code bits for SugarCube by Hogart (Konstantin Kitmanov).
 
-<!--#### Chapel's Custom Macro Collection
+#### Chapel's Custom Macro Collection
 
 - [Website](https://macros.twinelab.net/)
 - [Repository](https://github.com/ChapelR/custom-macros-for-sugarcube-2)
 
-A collection of macros, functions, and other code bits for SugarCube by Chapel. (Full disclosure: the primary author and maintainer of this resource guide developed this resource.)-->
+A collection of macros, functions, and other code bits for SugarCube by Chapel.
+
+!> **DISCLOSURE:** This resource was created by the primary author, maintainer, and curator of this guide.
 
 #### TheMadExile's SugarCube Basic Internationalization Example
 
@@ -298,12 +306,14 @@ A forum post by Greyelf providing code to create and implement a second sidebar 
 
 ### Harlowe
 
-<!--#### Harlowe Audio Library
+#### Harlowe Audio Library
 
 - [Website](https://hal.twinelab.net/)
 - [Repository](https://github.com/ChapelR/harlowe-audio)
 
-An audio library for Harlowe, designed to give it feature parity (or close to it) with SugarCube's built-in audio subsystems. (Full disclosure: the primary author and maintainer of this resource guide developed this resource.)-->
+An audio library for Harlowe, designed to give it feature parity (or close to it) with SugarCube's built-in audio subsystems.
+
+!> **DISCLOSURE:** This resource was created by the primary author, maintainer, and curator of this guide.
 
 #### Harlowe Inventory System Example
 
@@ -351,6 +361,24 @@ This wiki is useful, but also has a mix of Twine 1 and Twine 2 content, and a mi
 
 Videlais (aka, Dan Cox), a member of the Twine Committee and community, has produced many guides, videos, and explanations for all of the core story formats and for Twine in general.
 
+#### A Quick Twine (2.2+) Tutorial
+
+- [Tutorial](http://catn.decontextualize.com/twine/)
+
+As it says on the tin, a quick guide to using Twine 2. Note that the examples in this guide use the deprecated `<<end...>>` style closing tags rather than the `<</...>>` style closing tags that *should* be used in SugarCube.
+
+#### Standard Patterns in Choice-Based Games
+
+- [Blog Post](https://heterogenoustasks.wordpress.com/2015/01/26/standard-patterns-in-choice-based-games/)
+
+An overview and explanation of typical game structures used in choice-driven games.
+
+#### Converting Twine 2 Stories to Android APK Apps
+
+- [Blog Post](https://whatbinder.com/2018/06/01/converting-twine-2-stories-to-android-apk-apps-for-the-google-play-store/)
+
+A guide to using [PhoneGap](https://phonegap.com/) to convert Twine games (not just those made with Twine 2) into Android APK apps.
+
 ### SugarCube
 
 #### Official Documentation
@@ -361,7 +389,7 @@ The official documentation for SugarCube. While it includes some guides and tips
 
 #### HiEv's SugarCube Sample Code
 
-- [Website](https://qjzhvmqlzvoo5lqnrvuhmg-on.drv.tw/UInv/Sample_Code.html)
+- [Website](https://bit.ly/TwineSampleCode)
 
 A large amount of sample code for SugarCube covering a variety of common and uncommon use-cases. Frequently updated with new samples.
 
