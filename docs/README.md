@@ -111,6 +111,7 @@ Harlowe is a format designed for novices and is ideal for CYOA games with some d
 
 #### Snowman
 
+- [Documentation](https://videlais.github.io/snowman/)
 - [Repository](https://github.com/videlais/snowman)
 
 Snowman is essentially just a link markup parser, a markdown parser, and a templating engine, with a few nuts-and-bolts APIs built in to handle passages and such. It is agressively minimal, requiring authors to build almost every bit of funcitonality they may need in JavaScript. **Snowman requires a great deal of knowledge of JavaScript (and general web development) to get anywhere with**. Even then, its thin feature set may still make it a poorer choice than the other core formats for many projects, even for developers with the know-how to make it work for them.
@@ -135,11 +136,26 @@ The following is a list of some third-party, non-core story formats that have be
 
 A Snowman-based story format that features stretch-text--that is, new passages are rendered below the old ones, rather than replacing them. By M. C. DeMarco.
 
+##### Trialogue (story format)
+
+- [Documentation](https://phivk.github.io/trialogue/)
+- [Demo](https://phivk.github.io/trialogue/docs/trialogue-demo.html)
+- [Repository](https://github.com/phivk/trialogue)
+
+Trialogue is a chat-style Twine Story Format based on Paloma, which is in turn based on Snowman.
+
 ##### Adventures (story format)
 
 - [Website](http://adventures.longwelwind.net/)
 
 Adventures is a custom story format for Twine 2 made by Longwelwind that allows writers to add RPG elements such as health, items, golds and more to their story. 
+
+##### Twine-Monotagari (story format)
+
+- [Demo](https://haroldo-ok-2.github.io/twine-monogatari/v0.2.0/demo.html)
+- [Repository](https://github.com/haroldo-ok/twine-monogatari/)
+
+This Twine 2 story format allows one to use Twine to create Visual Novels for the Monogatari engine.
 
 ##### Entwee (utility format)
 
@@ -238,6 +254,12 @@ A Tweego development boilerplate featuring [webpack](https://webpack.js.org/).
 - [Repository](https://github.com/forkedlogic/AdventureGameEngine-TweeGo)
 
 An adventure game engine based on Sugarcube 2 & TweeGo. An opinionated boilerplate for Tweego projects.
+
+### TweeFly
+
+- [Website](https://stonedrum.de/tweefly-interactive-fiction-made-easy/)
+
+TweeFly is a tool for generating complex game systems in SugarCube and Twee2 without having to code them yourself. Available in both free and Patreon versions, the latter of which comes with a few extra bells and whistles.
 
 ## Extensions and Libraries
 
@@ -400,6 +422,12 @@ A large amount of sample code for SugarCube covering a variety of common and unc
 - [Website](https://twine2.neocities.org/)
 
 Harlowe's official documentation. Like SugarCube's docs, this is primarily a reference, though it does try to provide a lot of ground-floor explanations and examples to help novices understand.
+
+#### Introduction to Twine (Harlowe 2.1.0) by Connor Walsh
+
+- [Document](https://docs.wixstatic.com/ugd/d1fd96_4cea140f718a483689aa26a67981671c.pdf)
+
+A fairly wide-ranging beginner-to-intermediate guide to Harlowe 2.
 
 ### Snowman
 
