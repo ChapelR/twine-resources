@@ -1,0 +1,29 @@
+{
+  "name": "twine-resources",
+  "version": "1.0.0",
+  "description": "Twine resources.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "convert": "node_modules/.bin/docsify-pdf-converter"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChapelR/twine-resources.git"
+  },
+  "author": "CHapel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChapelR/twine-resources/issues"
+  },
+  "homepage": "https://github.com/ChapelR/twine-resources#readme",
+  "keywords": [
+    "twine",
+    "guide",
+    "resources"
+  ],
+  "devDependencies": {}
+}

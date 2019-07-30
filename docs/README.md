@@ -267,7 +267,7 @@ Since a great deal of web libraries can be made to work with Twine story formats
 
 SugarCube is more extensible than Harlowe, so will have more scripts and extentions.
 
-### SugarCube
+### SugarCube Libraries
 
 #### Official Add-ons
 
@@ -326,7 +326,7 @@ A forum post by Greyelf providing the CSS for a variety of text effects in Sugar
 
 A forum post by Greyelf providing code to create and implement a second sidebar on the other side of the screen in SugarCube.
 
-### Harlowe
+### Harlowe Libraries
 
 #### Harlowe Audio Library
 
@@ -354,7 +354,7 @@ A forum post by Greyelf providing a tag-based styles feature to Harlowe v1, with
 
 Guides for Twine can sometimes be hard to find when you need them, particularly because most guides, by necessity, are format-specific. Here are a few guides from across the web. There are other guides out there too, but many are out-of-date, written for older or defunct versions of Twine or story formats, or are (no disrespect intended to the original authors) simply wrong--so YMMV.
 
-### General
+### General Guides
 
 Guides for the Twine application itself, for general Twine development information, or that just cover a lot of different story formats.
 
@@ -401,7 +401,7 @@ An overview and explanation of typical game structures used in choice-driven gam
 
 A guide to using [PhoneGap](https://phonegap.com/) to convert Twine games (not just those made with Twine 2) into Android APK apps.
 
-### SugarCube
+### SugarCube Guides
 
 #### Official Documentation
 
@@ -415,7 +415,7 @@ The official documentation for SugarCube. While it includes some guides and tips
 
 A large amount of sample code for SugarCube covering a variety of common and uncommon use-cases. Frequently updated with new samples.
 
-### Harlowe
+### Harlowe Guides
 
 #### Official Documentation
 
@@ -429,7 +429,7 @@ Harlowe's official documentation. Like SugarCube's docs, this is primarily a ref
 
 A fairly wide-ranging beginner-to-intermediate guide to Harlowe 2.
 
-### Snowman
+### Snowman Guides
 
 #### Official Documentation
 
