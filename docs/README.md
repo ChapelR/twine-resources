@@ -376,6 +376,12 @@ Years upon years of wisdom and answers can be found by searching the old forum a
 
 This wiki is useful, but also has a mix of Twine 1 and Twine 2 content, and a mix of content regarding different story formats. This unfortunately can sometimes make it hard to tell what the information you're reading *is actually for*. Still, the wiki remains an impressive collection of information, and is typically worth exploring when you have questions that aren't specifically about a story format.
 
+#### Official Twine Specifications
+
+- [Repository](https://github.com/iftechfoundation/twine-specs)
+
+Specifications drafted and approved by the Twine committee and other related documentation, primarily for the developers of tools, compilers, and formats.
+
 #### Videlais's Guides and Videos
 
 - [Tutorials](https://videlais.com/twine-tutorials/)
