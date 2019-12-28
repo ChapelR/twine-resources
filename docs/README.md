@@ -54,7 +54,7 @@ The old, unmaintained Twine GUI. Only recommended for use with generation 2 form
 
 - [Website](https://www.motoslave.net/tweego/)
 - [Documentation](https://www.motoslave.net/tweego/docs)
-- [Repository](https://bitbucket.org/tmedwards/tweego)
+- [Repository](https://github.com/tmedwards/tweego)
 
 A CLI compiler. Works with formats from either generation. The recommended CLI compiler for most users. 
 
@@ -98,7 +98,7 @@ The "core" formats are the ones included with the Twine 2 application. These for
 
 - [Website](http://www.motoslave.net/sugarcube/2/)
 - [Documentation](http://www.motoslave.net/sugarcube/2/docs/)
-- [Repository](https://bitbucket.org/tmedwards/sugarcube/)
+- [Repository](https://github.com/tmedwards/sugarcube-2)
 
 SugarCube is a feature-rich, extensible, and simple story format. While in a few ways more complicated than Harlowe, SugarCube is still intended for beginners, but also comes with a variety of features and options for more advanced users as well. When choosing a format, **SugarCube is hard to go wrong with**. It may not always be the best fit, but it can always be adapted to work with whatever you have in mind.
 
