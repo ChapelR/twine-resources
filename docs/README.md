@@ -498,12 +498,6 @@ There are several places across the web where you can host your Twine game for f
 > [!WARNING]
 > You will not be able to host your Twine game though certain providers like Wix or Wordpress, or through most blogging platforms. Most of these services do not allow users to upload arbitrary HTML files (e.g., your Twine game) and many also have specific limitations on how you can use iframes, so even hosting it elsewhere and making it merely *playable* through your website may not be possible with such services. Some services, like [GoDaddy](https://www.godaddy.com/) have also been known to break the Twine files they are meant to serve, so some research may be needed even if your preferred service does allow you to upload arbitrary HTML files.
 
-### Philome.la
-
-- [Website](http://philome.la/)
-
-This website makes publishing your game simple, and it is dedicated purely to Twine. You may only host your HTML file here; if you need additional resources, like assets, you will need to host them separately and link to them in your file, or publish some place else.
-
 ### Itch.io
 
 - [Website](https://itch.io/)
