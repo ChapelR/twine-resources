@@ -364,6 +364,12 @@ Guides for the Twine application itself, for general Twine development informati
 
 A "cookbook" featuring code examples and explanations of common use-cases in several different formats. A great place to start learning Twine.
 
+#### The Twine Q&A Archive
+
+- [Website](https://twinery.org/questions/)
+
+A place where technical questions about Twine used to be asked. The Q&A has since been shutdown and made read-only, but is is still home to thousands of great answers that you may want to peruse. This site will frequently show up in Google searches as well.
+
 #### The Twine Forum Archive
 
 - [Website](https://twinery.org/forum/)
@@ -450,12 +456,6 @@ There are several places across the web where you can discuss Twine, get help wi
 ### Dedicated Communities
 
 These dedicated communities are all about Twine.
-
-#### The Twine Q&A
-
-- [Website](https://twinery.org/questions/)
-
-An official forum for asking techincal questions regarding Twine.
 
 #### The r/twinegames Subreddit
 
