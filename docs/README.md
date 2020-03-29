@@ -116,6 +116,14 @@ Harlowe is a format designed for novices and is ideal for CYOA games with some d
 
 Snowman is essentially just a link markup parser, a markdown parser, and a templating engine, with a few nuts-and-bolts APIs built in to handle passages and such. It is agressively minimal, requiring authors to build almost every bit of funcitonality they may need in JavaScript. **Snowman requires a great deal of knowledge of JavaScript (and general web development) to get anywhere with**. Even then, its thin feature set may still make it a poorer choice than the other core formats for many projects, even for developers with the know-how to make it work for them.
 
+#### Chapbook
+
+- [Website](https://klembot.github.io/chapbook/)
+- [Documentation](https://klembot.github.io/chapbook/guide/)
+- [Repository](https://github.com/klembot/chapbook)
+
+Chapbook is designed to be simple to use. Compared to the other formats, it has the smallest feature set and is the most *opinionated* format. **Chapbook has some important limitations to consider, but if you can bend your ideas to fit its mold, it is probably the easiest format to learn.** Even if you have relatively large ideas, Chapbook is extensible, and there are ways to circumvent most of its limitations. However, it's simply not ideal for more complex ideas and mechanics. 
+
 ### Proofing and Utility Formats
 
 Twine 2 introduced the concept of "proofing" formats; story formats designed to create more readable copies of your source code for proofreading and editing. "Utility" formats are a related concept that sprung up in the wake of proofing formats--typically these formats output Twine stories to some other useful format--JSON or Twee, for example, but there are many that do other cool things.
@@ -337,6 +345,16 @@ An audio library for Harlowe, designed to give it feature parity (or close to it
 
 !> **DISCLOSURE:** This resource was created by the primary author, maintainer, and curator of this guide.
 
+#### Harlowe Custom Macro API
+
+- [Website](https://harlowe.twinelab.net/)
+- [Macros](https://twinelab.net/harlowe-macro-api/#/examples/main)
+- [Repository](https://github.com/ChapelR/harlowe-macro-api)
+
+A framework for developing custom macros for Harlowe.
+
+!> **DISCLOSURE:** This resource was created by the primary author, maintainer, and curator of this guide.
+
 #### Harlowe Inventory System Example
 
 - [Post](https://gersande.com/blog/designing-inventories-in-twine-2-with-the-built-in-harlowe-macros/)
@@ -448,6 +466,14 @@ A fairly wide-ranging beginner-to-intermediate guide to Harlowe 2.
 - [Website](https://videlais.github.io/snowman/)
 
 Snowman's official documentation, complete with several usage examples.
+
+### Chapbook Guides
+
+#### Official Documentation
+
+- [Website](https://klembot.github.io/chapbook/guide/)
+
+Chapbook's official documentation. Reads a bit more like a guide than the documentation for the other formats.
 
 ## Communities
 
