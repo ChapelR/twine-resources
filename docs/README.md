@@ -6,7 +6,7 @@ This is a collection of resources and tools for use with [Twine](https://twinery
 > In this guide, when we refer to **Twine**, we will generally be talking about the entire ecosystem. If we mean the genre of IF that Twine produces, we will use the term ["CYOA"](https://en.wikipedia.org/wiki/Gamebook), and if we are talking about one of the Twine applications, we will say "Twine 1" or "Twine 2."
 
 > [!TIP]
-> If you have or know of resources that you'd like to see in this guide, open an issue or a pull request. Note that this list is *curated*, so if I have reservations about a resource or if it does not appear to work, I reserve the right to deny it.
+> If you have or know of resources that you'd like to see in this guide, open an issue or a pull request. Note that this list is *curated*, so if the maintainers have reservations about a resource or if it does not appear to work, it will not be added.
 
 ## Contents
 
@@ -20,7 +20,7 @@ This is a collection of resources and tools for use with [Twine](https://twinery
 
 ## Compilers
 
-A Twine *compiler* refers to a program that takes your raw code and metadata: passage names, tags, source code, etc, and compiles it with a [story format](#story-formats) to generate a Twine game. There are two main types of compilers: [GUI](https://en.wikipedia.org/wiki/Graphical_user_interface) comilers and [CLI](https://en.wikipedia.org/wiki/Command-line_interface) compilers. Most beginners may prefer to use GUI compilers, as they more readily reflect the way most users interact with their computers, but CLI comilers typically offer more options and flexibility. While some CLI compilers can process JavaScript, CSS, HTML, and even published or archived Twine 2 files, you will commonly use [Twee notation](https://twinery.org/cookbook/terms/terms_twee.html) with these compilers.
+A Twine *compiler* refers to a program that takes your raw code and metadata: passage names, tags, source code, etc, and compiles it with a [story format](#story-formats) to generate a Twine game. There are two main types of compilers: [GUI](https://en.wikipedia.org/wiki/Graphical_user_interface) compilers and [CLI](https://en.wikipedia.org/wiki/Command-line_interface) compilers. Most beginners may prefer to use GUI compilers, as they more readily reflect the way most users interact with their computers, but CLI compilers typically offer more options and flexibility. While some CLI compilers can process JavaScript, CSS, HTML, and even published or archived Twine 2 files, you will commonly use [Twee notation](https://twinery.org/cookbook/terms/terms_twee.html) with these compilers.
 
 There are also two *generations* of Twine compilers and story formats. First generation Twine compilers typically only work with first generation story formats, and second generation compilers typically only work with second generation formats. However, there is at least one compiler and a handful of story formats that work across both generations.
 
@@ -92,7 +92,7 @@ A [**story format**](https://twinery.org/cookbook/introduction/story_formats.htm
 
 ### Core Formats
 
-The "core" formats are the ones included with the Twine 2 application. These formats are still developed by third parties, but are more widely used, and typically better maintained, than other formats. The core formats are SugarCube, Harlowe, and Snowman. When using *any* format, you should always use the most recent possible version; older versions of formats are *only* included for compatibility with on-going projects and are not intended for use with new stories or games. <!-- wait to mention chapbook until it's out and in the core -->
+The "core" formats are the ones included with the Twine 2 application. These formats are still developed by third parties, but are more widely used, and typically better maintained, than other formats. The core formats are SugarCube, Harlowe, Snowman, and Chapbook. When using *any* format, you should always use the most recent possible version; older versions of formats are *only* included for compatibility with on-going projects and are not intended for use with new stories or games.
 
 #### SugarCube
 
@@ -114,7 +114,7 @@ Harlowe is a format designed for novices and is ideal for CYOA games with some d
 - [Documentation](https://videlais.github.io/snowman/)
 - [Repository](https://github.com/videlais/snowman)
 
-Snowman is essentially just a link markup parser, a markdown parser, and a templating engine, with a few nuts-and-bolts APIs built in to handle passages and such. It is agressively minimal, requiring authors to build almost every bit of funcitonality they may need in JavaScript. **Snowman requires a great deal of knowledge of JavaScript (and general web development) to get anywhere with**. Even then, its thin feature set may still make it a poorer choice than the other core formats for many projects, even for developers with the know-how to make it work for them.
+Snowman is essentially just a link markup parser, a markdown parser, and a templating engine, with a few nuts-and-bolts APIs built in to handle passages and such. It is aggressively minimal, requiring authors to build almost every bit of functionality they may need in JavaScript. **Snowman requires a great deal of knowledge of JavaScript (and general web development) to get anywhere with**. Even then, its thin feature set may still make it a poorer choice than the other core formats for many projects, even for developers with the know-how to make it work for them.
 
 #### Chapbook
 
@@ -156,7 +156,7 @@ Trialogue is a chat-style Twine Story Format based on Paloma, which is in turn b
 
 - [Website](http://adventures.longwelwind.net/)
 
-Adventures is a custom story format for Twine 2 made by Longwelwind that allows writers to add RPG elements such as health, items, golds and more to their story. 
+Adventures is a custom story format for Twine 2 made by Longelwind that allows writers to add RPG elements such as health, items, golds and more to their story. 
 
 ##### Twine-Monotagari (story format)
 
@@ -185,9 +185,11 @@ DotGraph is a proofing format that uses a JavaScript implementation of Graphviz 
 
 ##### Illume (proofing format)
 
-- [Website](http://www.maximumverbosity.net/twine/Illume/)
+- ~~[Website](http://www.maximumverbosity.net/twine/Illume/)~~
 
 Illume is a proofing format for Twine 2 that offers more functionality than a simple text dump. Its primary purpose is to provide an interface for reviewing and editing passages in a workflow that allows an author to easily have another person, even someone who does not use Twine, proofread and provide edits to a story.
+
+!> Illume's website has disappeared as of May 2020.
 
 ##### poof (proofing format)
 
@@ -241,7 +243,7 @@ A shell script for installing Tweego on MacOS.
 
 - [Repository](https://github.com/ChapelR/tweego-setup)
 
-A boilerplate project and toolchain for creating Tweego porjects with [Node](https://nodejs.org/en/) and [Gulp](https://gulpjs.com/).
+A boilerplate project and toolchain for creating Tweego projects with [Node](https://nodejs.org/en/) and [Gulp](https://gulpjs.com/).
 
 !> **DISCLOSURE:** This resource was created by the primary author, maintainer, and curator of this guide.
 
@@ -261,7 +263,7 @@ A Tweego development boilerplate featuring [webpack](https://webpack.js.org/).
 
 - [Repository](https://github.com/forkedlogic/AdventureGameEngine-TweeGo)
 
-An adventure game engine based on Sugarcube 2 & TweeGo. An opinionated boilerplate for Tweego projects.
+An adventure game engine based on SugarCube 2 & TweeGo. An opinionated boilerplate for Tweego projects.
 
 ### TweeFly
 
@@ -273,7 +275,7 @@ TweeFly is a tool for generating complex game systems in SugarCube and Twee2 wit
 
 Since a great deal of web libraries can be made to work with Twine story formats (though it may take some doing), and since Snowman essentially requires *all* functionality to be built by the author (and I'm unaware of any specific libraries designed for it), this list will only include libraries, scripts, and extensions designed to work with either Harlowe or SugarCube, at least for now.
 
-SugarCube is more extensible than Harlowe, so will have more scripts and extentions.
+SugarCube is more extensible than Harlowe, so will have more scripts and extensions.
 
 ### SugarCube Libraries
 
@@ -366,7 +368,7 @@ A blog post detailing a potential method for implementing a simple, key-based in
 - [Forum Post (for v1)](https://twinery.org/forum/discussion/4797/basic-harlowe-passage-tag-based-styling)
 - [Forum Post (ammendment for v2+)](https://twinery.org/forum/discussion/comment/21541/#Comment_21541)
 
-A forum post by Greyelf providing a tag-based styles feature to Harlowe v1, with ammendments for Harlowe v2+.
+A forum post by Greyelf providing a tag-based styles feature to Harlowe v1, with amendments for Harlowe v2+.
 
 ## Guides, Examples, and References
 
@@ -475,6 +477,13 @@ Snowman's official documentation, complete with several usage examples.
 
 Chapbook's official documentation. Reads a bit more like a guide than the documentation for the other formats.
 
+#### Narrascope 2020 Chapbook Talk
+
+- [Twitch Video](https://www.twitch.tv/videos/634761958)
+- [Companion Web Page](http://chrisklimas.com/narrascope20/)
+
+A Narrascope talk streamed on Twitch about using Chapbook. Assumes some basic knowledge of Twine, but otherwise provides a great ground-floor introduction to using the format.
+
 ## Communities
 
 There are several places across the web where you can discuss Twine, get help with it, or find and connect with other Twine users. Here are several of them.
@@ -558,4 +567,4 @@ Allows you to use Google Drive as your website's backend. You can upload assets 
 
 - [Website](https://www.newgrounds.com/)
 
-Newgrounds accepts HTML games, like Twine. You can upload assets with yout HTML file in much the same way as on Itch.io.
+Newgrounds accepts HTML games, like Twine. You can upload assets with an HTML file in much the same way as on Itch.io.
