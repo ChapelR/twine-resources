@@ -13,6 +13,7 @@
   - [SugarCube](#sugarcube-guides)
   - [Harlowe](#harlowe-guides)
   - [Snowman](#snowman-guides)
+  - [Chapbook](#chapbook-guides)
 - [**Communities**](#communities)
   - [Dedicated Communities](#dedicated-communities)
   - [Other Communities](#communities-where-twine-may-be-discussed)
