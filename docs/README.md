@@ -336,6 +336,15 @@ A forum post by Greyelf providing the CSS for a variety of text effects in Sugar
 
 A forum post by Greyelf providing code to create and implement a second sidebar on the other side of the screen in SugarCube.
 
+#### Dynamic Avatar Drawer (WARNING: NSFW)
+
+- [SugarCube Tutorial](http://perplexedpeach.gitlab.io/dynamic-avatar-drawer/dist/twine_demo.html)
+- [Twine Integration Guide](http://perplexedpeach.gitlab.io/dynamic-avatar-drawer/twine_guide.html)
+- [Website](http://perplexedpeach.gitlab.io/dynamic-avatar-drawer/)
+- [Repository](https://gitlab.com/PerplexedPeach/dynamic-avatar-drawer)
+
+Dynamic Avatar Drawer is a library for creating customizable character graphics. The developer of the library has written an extensive guide and demo for integrating the library into SugarCube. It may be possible to integrate DAD into other formats as well.
+
 ### Harlowe Libraries
 
 #### Harlowe Audio Library
@@ -420,6 +429,12 @@ Videlais (aka, Dan Cox), a member of the Twine Committee and community, has prod
 - [Tutorial](http://catn.decontextualize.com/twine/)
 
 As it says on the tin, a quick guide to using Twine 2. Note that the examples in this guide use the deprecated `<<end...>>` style closing tags rather than the `<</...>>` style closing tags that *should* be used in SugarCube.
+
+#### The Twine Grimoire
+
+- [Volume 1](https://grimoirtua.itch.io/grimoire-one)
+
+A CSS and styling guide for Twine, mostly covering SugarCube and Harlowe, but also featuring general CSS advice and instructions that could be used for any format.
 
 #### Standard Patterns in Choice-Based Games
 
