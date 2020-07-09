@@ -291,6 +291,12 @@ The author of SugarCube maintains several external add-ons on the SugarCube webs
 
 An inventory system by HiEv. Probably the most full-featured inventory extension available for SugarCube.
 
+#### Cycy's Custom Macros
+
+- [Repository](https://github.com/cyrusfirheir/cycy-wrote-custom-macros)
+
+Macro-sets aimed at DOM manipulation and simplifying 'tedious' procedures, and more. For SugarCube by Cyrus Firheir. 
+
 #### Akjosch's SugarCube Modules
 
 - [Repository](https://github.com/Akjosch/sugarcube-modules)
