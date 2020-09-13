@@ -185,11 +185,9 @@ DotGraph is a proofing format that uses a JavaScript implementation of Graphviz 
 
 ##### Illume (proofing format)
 
-- ~~[Website](http://www.maximumverbosity.net/twine/Illume/)~~
+- [Website](http://www.maximumverbosity.net/twine/Illume/)
 
 Illume is a proofing format for Twine 2 that offers more functionality than a simple text dump. Its primary purpose is to provide an interface for reviewing and editing passages in a workflow that allows an author to easily have another person, even someone who does not use Twine, proofread and provide edits to a story.
-
-!> Illume's website has disappeared as of May 2020.
 
 ##### poof (proofing format)
 
