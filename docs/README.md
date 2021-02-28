@@ -237,6 +237,13 @@ A Windows-only installer that simplifies installing Tweego.
 
 A shell script for installing Tweego on MacOS.
 
+### Twee 3 Language Tools 
+
+- [Repository](https://github.com/cyrusfirheir/twee3-language-tools)
+- [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=cyrusfirheir.twee3-language-tools)
+
+An extension for [VSCode](https://code.visualstudio.com/) by [Cyrus Firheir](https://github.com/cyrusfirheir), [Goctionni](https://github.com/Goctionni), and [MinusGix](https://github.com/MinusGix). Provides syntax highlighting and programmatic language tools for [Twee 3](https://github.com/iftechfoundation/twine-specs/blob/master/twee-3-specification.md), with built-in support for the core Twine 2 story formats.
+
 ### Tweego Setup
 
 - [Repository](https://github.com/ChapelR/tweego-setup)
