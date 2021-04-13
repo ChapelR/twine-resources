@@ -320,6 +320,12 @@ A collection of macros, functions, and other code bits for SugarCube by Mike Wes
 
 A collection of macros, functions, and other code bits for SugarCube by Hogart (Konstantin Kitmanov).
 
+#### SjoerdHekking's SugarCube Macros
+
+- [Repository](https://github.com/SjoerdHekking/custom-macros-sugarcube2)
+
+A macro collection to manipulate text, by SjoerdHekking. Simulate dyslexia and create spoilers.
+
 #### Chapel's Custom Macro Collection
 
 - [Website](https://macros.twinelab.net/)
