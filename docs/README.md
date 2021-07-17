@@ -276,6 +276,12 @@ An adventure game engine based on SugarCube 2 & TweeGo. An opinionated boilerpla
 
 TweeFly is a tool for generating complex game systems in SugarCube and Twee2 without having to code them yourself. Available in both free and Patreon versions, the latter of which comes with a few extra bells and whistles.
 
+### Gordian Book
+
+- [Website](http://ddonachie.virga.invertech.co.uk/gordian.php)
+
+Gordian Book is a tool to convert Twine/Twee3 stories into traditional *Fighting Fantasy*-style gamebooks, with randomized numbered paragraphs,  "turn to page X"-style links, and textual rules blocks. Outputs games as PDFs, Twine archives, Twee3, JSON, or HTML.
+
 ## Extensions and Libraries
 
 Since a great deal of web libraries can be made to work with Twine story formats (though it may take some doing), and since Snowman essentially requires *all* functionality to be built by the author (and I'm unaware of any specific libraries designed for it), this list will only include libraries, scripts, and extensions designed to work with either Harlowe or SugarCube, at least for now.
@@ -301,6 +307,12 @@ An inventory system by HiEv. Probably the most full-featured inventory extension
 - [Repository](https://github.com/cyrusfirheir/cycy-wrote-custom-macros)
 
 Macro-sets aimed at DOM manipulation and simplifying 'tedious' procedures, and more. For SugarCube by Cyrus Firheir. 
+
+#### Gwen's Custom Macros
+
+- [Repository](https://github.com/GwenTastic/Custom-Macros-for-Sugarcube)
+
+A macro collection by Gwen[Tastic]. Cooldown buttons and radar charts.
 
 #### Akjosch's SugarCube Modules
 
