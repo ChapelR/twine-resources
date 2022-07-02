@@ -278,7 +278,7 @@ TweeFly is a tool for generating complex game systems in SugarCube and Twee2 wit
 
 ### Gordian Book
 
-- [Website](http://ddonachie.virga.invertech.co.uk/gordian.php)
+- [Website](https://gordianbook.art/)
 
 Gordian Book is a tool to convert Twine/Twee3 stories into traditional *Fighting Fantasy*-style gamebooks, with randomized numbered paragraphs,  "turn to page X"-style links, and textual rules blocks. Outputs games as PDFs, Twine archives, Twee3, JSON, or HTML.
 
