@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "convert": "node_modules/.bin/docsify-pdf-converter"
+    "convert": "node_modules/.bin/docsify-pdf-converter",
+    "start": "docsify serve docs -o"
   },
   "repository": {
     "type": "git",
