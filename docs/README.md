@@ -347,6 +347,15 @@ A collection of macros, functions, and other code bits for SugarCube by Chapel.
 
 !> **DISCLOSURE:** This resource was created by the primary author, maintainer, and curator of this guide.
 
+#### Simple Inventory 3
+
+- [Website](https://inventory.twinelab.net/)
+- [Repository](https://github.com/ChapelR/simple-inventory)
+
+An inventory system for SugarCube 2.
+
+!> **DISCLOSURE:** This resource was created by the primary author, maintainer, and curator of this guide.
+
 #### TheMadExile's SugarCube Basic Internationalization Example
 
 - [Gist](https://gist.github.com/tmedwards/33f3b4b7ada317fc9cc70aa8580c03f0)
