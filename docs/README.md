@@ -383,6 +383,15 @@ A forum post by Greyelf providing code to create and implement a second sidebar 
 
 Dynamic Avatar Drawer is a library for creating customizable character graphics. The developer of the library has written an extensive guide and demo for integrating the library into SugarCube. It may be possible to integrate DAD into other formats as well.
 
+### Chapbook Libraries
+
+#### Sargent's Chapbook Extensions
+
+- [Website](https://github.com/sgranade/sargent-chapbook-extensions)
+- [Demo](https://sgranade.github.io/sargent-chapbook-extensions/)
+
+A collection of modifiers and inserts to manipulate text, like showing something different every time a passage is shown.
+
 ### Harlowe Libraries
 
 #### Harlowe Audio Library

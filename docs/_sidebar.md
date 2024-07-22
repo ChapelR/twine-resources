@@ -7,6 +7,7 @@
 - [**Tooling**](#tooling)
 - [**Extensions and Libraries**](#extensions-and-libraries)
   - [SugarCube](#sugarcube-libraries)
+  - [Chapbook](#chapbook-libraries)
   - [Harlowe](#harlowe-libraries)
 - [**Guides, Examples, and References**](#guides-examples-and-references)
   - [General](#general-guides)
